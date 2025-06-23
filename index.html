@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Vedasree M, a Computer Science Engineering student specializing in full-stack web development.">
+    <meta name="keywords" content="Vedasree M, portfolio, web developer, full-stack, computer science">
+    <meta name="author" content="Vedasree M">
+    <meta property="og:title" content="Vedasree M - Portfolio">
+    <meta property="og:description" content="Explore the portfolio of Vedasree M, showcasing web development projects and skills.">
+    <meta property="og:image" content="https://yourdomain.com/veda.jpg">
+    <meta property="og:url" content="https://yourdomain.com">
+    <title>Vedasree M - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="laptop-frame">
+        <div class="screen">
+            <!-- Navigation -->
+            <nav>
+                <div class="hamburger" aria-label="Toggle navigation" role="button" tabindex="0">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About Me</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+
+            <!-- Hero Section -->
+            <section id="home" class="hero" data-aos="fade-up">
+                <div class="hero-content">
+                    <h1 class="hero-title">I'M VEDASREE M</h1>
+                    <p class="hero-subtitle">Big Dreams, Bold Steps, and Endless Curiosity 🌠</p>
+                    <a href="Vedasree_Resume.pdf" class="view-portfolio-btn" target="_blank">VIEW RESUME</a>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-container">
+                        <picture>
+                            <source srcset="veda.jpg" type="image/jpg">
+                            <img src="veda.jpg" alt="Portrait of Vedasree M" class="profile-pic" loading="lazy">
+                        </picture>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Background Text -->
+            <div class="bg-text">Portfolio</div>
+
+            <!-- Social Icons -->
+            <div class="social-icons">
+                <a href="https://github.com/VedasreeM" class="social-icon" target="_blank" aria-label="GitHub profile"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/in/vedasree-m" class="social-icon" target="_blank" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:vedasree1811@gmail.com" class="social-icon" aria-label="Send email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel:+917012434704" class="social-icon" aria-label="Call phone"><i class="fa-solid fa-phone"></i></a>
+            </div>
+
+            <!-- About Section -->
+            <section id="about" class="about-section" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div>
+                        <p class="about-text">
+                            Hi, I'm Vedasree M, a passionate Computer Science Engineering student at NSS College of Engineering, with a keen interest in full-stack web development, tech-driven creativity, and building impactful solutions.
+                            <br>
+                            I love exploring how technology can solve real-world problems—whether it's through clean, responsive websites or innovative student projects. My journey combines strong academics, practical experience through internships, and a continuous drive to learn and grow.
+                            <br>
+                            I’m also a dedicated community contributor and content creator, always excited to collaborate, create, and push boundaries. My ultimate dream? To contribute to the world of space science and innovation.
+                        </p>
+                    </div>
+                    <div class="education-list">
+                        <div class="education-item">
+                            <h3>B.Tech Computer Science and Engineering</h3>
+                            <p>NSS College of Engineering, Palakkad</p>
+                            <div class="year">2022 - 2026</div>
+                        </div>
+                        <div class="education-item">
+                            <h3>Higher Secondary (12th)</h3>
+                            <p>GHSS Kottodi</p>
+                            <div class="year">2021 - 2022 | 99%</div>
+                        </div>
+                        <div class="education-item">
+                            <h3>Secondary (10th)</h3>
+                            <p>GHSS Kottodi</p>
+                            <div class="year">2019 - 2020 | 100%</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="skills-section" data-aos="fade-up">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">DSA</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Web Development</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Flask</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="experience-section" data-aos="fade-up">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Web Development Intern | Present</h3>
+                            <h4>Prodigy Infotech</h4>
+                            <div class="date">June 15 - July 15, 2025</div>
+                            <p>Contributing to real-world web projects while developing practical frontend skills. Working on modern web applications with focus on user experience and responsive design.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Web Development Intern</h3>
+                            <h4>IEDC (Innovation and Entrepreneurship Development Cell) NSSCE</h4>
+                            <div class="date">February 2023 - March 2023</div>
+                            <p>Worked on enhancing and maintaining the official website alongside the IEDC team. Gained experience in collaborative development, web optimization, and working with real-world constraints and deadlines.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="projects-section" data-aos="fade-up">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>GANAURA</h3>
+                        <h4>Anime Image & Video Transformer</h4>
+                        <p>Web application built with Generative Adversarial Networks (GANs) for transforming regular media into anime-style content. Developed the complete stack including frontend interface, backend API, and model integration for seamless user experience.</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">GANs</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Flask</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/VedasreeM/ganaura" class="project-btn" target="_blank">View Code</a>
+                            <a href="https://ganaura.vercel.app/" class="project-btn" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>MindThanal</h3>
+                        <h4>Mental Health Chatbot</h4>
+                        <p>A compassionate, simple and supportive mental health chatbot in which people can share their feelings and emotions. It provides empathetic responses, suggests self-care tips like journaling or mindfulness, and encourages users to seek professional help when needed. Designed as a safe space for students to talk and feel heard.Built with empathy and user well-being at its core, featuring real-time emotion analysis.</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Speech API</span>
+                            <span class="skill-tag">Groq API</span>
+                            <span class="skill-tag">Flask</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/VedasreeM/mindthanal" class="project-btn" target="_blank">View Code</a>
+                            <a href="https://mind-thanal.vercel.app/" class="project-btn" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-section" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>vedasree1811@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 70124 34704</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-brands fa-linkedin"></i></div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/vedasree-m</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>github.com/VedasreeM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+    <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="submit-btn">Send Message</button>
+</form>
+
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>© 2025 Vedasree M. All rights reserved. | Crafted with ❤️ and Innovation</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
