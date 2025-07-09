@@ -4,7 +4,7 @@ Hi! I'm **Vedasree M**, a passionate Computer Science Engineering student who lo
 
 This is my personal portfolio website built to showcase my projects, skills, community involvements, and achievements.
 
-🌐 **Live Site:** [https://vedasree-m-ten.vercel.app/](https://your-vercel-link.vercel.app)  
+🌐 **Live Site:** [https://vedasree-m-ten.vercel.app](https://your-vercel-link.vercel.app)  
 
 ## 🛠️ Built With
 
